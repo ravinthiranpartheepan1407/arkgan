@@ -1,0 +1,13 @@
+cargo-features = ["edition2024"]
+
+[package]
+name = "arkgan"
+version = "0.0.3"
+edition = "2024"
+authors = ["Ravinthiran Partheepan <ravinthiranpartheepan@gmail.com>"]
+documentation = "docs.arkhamm.com"
+
+[lib]
+name = "arkgan"
+path = "./src/lib.rs"
+
