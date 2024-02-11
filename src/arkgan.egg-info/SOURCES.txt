@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/arkgan.egg-info/PKG-INFO
+src/arkgan.egg-info/SOURCES.txt
+src/arkgan.egg-info/dependency_links.txt
+src/arkgan.egg-info/not-zip-safe
+src/arkgan.egg-info/top_level.txt

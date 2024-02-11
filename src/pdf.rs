@@ -1,6 +1,4 @@
-const INPUT: [f64;5] = [10.0,20.0,30.0,40.0,50.0];
-
-pub fn pdf(values: &[f64]) -> Vec<f64>{
+pub fn calc_pdf(values: &[f64]) -> Vec<f64>{
     // Calculate Mean
     let mut sum: f64 = 0.0;
     let mut sqr_diff: f64 = 0.0;
@@ -33,9 +31,4 @@ pub fn pdf(values: &[f64]) -> Vec<f64>{
         out.push(res);
     }
     return out;
-}
-
-fn main(){
-    let res: Vec<f64> = pdf(&INPUT);
-    println!("PDF: {:?}",res);
 }

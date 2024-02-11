@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["mean"]};
+window.SIDEBAR_ITEMS = {"mod":["pdf"]};
