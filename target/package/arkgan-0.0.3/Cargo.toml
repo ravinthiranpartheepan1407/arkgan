@@ -14,7 +14,9 @@ edition = "2021"
 name = "arkgan"
 version = "0.0.3"
 authors = ["Ravinthiran Partheepan <ravinthiranpartheepan@gmail.com>"]
+description = "An open source GAN toolkit"
 documentation = "docs.arkhamm.com"
+license = "Apache-2.0"
 
 [lib]
 name = "arkgan"
