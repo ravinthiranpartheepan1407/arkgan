@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["pdf"]};
+window.SIDEBAR_ITEMS = {"mod":["adv_loss","discriminator","generator","pdf"]};
