@@ -66,11 +66,11 @@ pub fn objective(x: &[f64], y: &[f64], sample_size: i64) -> (Vec<f64>,Vec<f64>){
         // println!("Y_ADV_LOSS: {}", y_adv_loss);
     }
     let log_gen = if generator > 0.0 {generator} else {f64::EPSILON};
-    let adv_gen: f64 = -0.5 * f64::log2(log_gen);
+    // let adv_gen: f64 = -0.5 * f64::log2(log_gen);
 
     // Objective Loss Function
-    let mut x_obj_loss: Vec<f64> = [];
-    let mut y_obj_loss: Vec<f64> = [];
+    let mut x_obj_loss: Vec<f64> = vec![];
+    let mut y_obj_loss: Vec<f64> = vec![];
     for (idx, &_elements) in x_adv.iter().enumerate(){
         let x_calc_obj = _elements + generator;
         let y_calc_obj = y_adv[idx] + generator;
