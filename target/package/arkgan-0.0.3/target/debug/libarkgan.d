@@ -1,1 +1,0 @@
-C:\Users\ravin\arkgan\target\package\arkgan-0.0.3\target\debug\libarkgan.rlib: C:\Users\ravin\arkgan\target\package\arkgan-0.0.3\src\lib.rs C:\Users\ravin\arkgan\target\package\arkgan-0.0.3\src\pdf.rs
