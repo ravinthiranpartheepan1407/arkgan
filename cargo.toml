@@ -1,9 +1,9 @@
 [package]
 name = "arkgan"
-version = "0.0.2"
+version = "0.0.3"
 edition = "2021"
 authors = ["Ravinthiran Partheepan <ravinthiranpartheepan@gmail.com>"]
-documentation = "https://docs.arkhamm.com"
+documentation = "https://docs.rs/arkgan/latest/arkgan/"
 description = "An open source GAN toolkit"
 license = "Apache-2.0"
 
