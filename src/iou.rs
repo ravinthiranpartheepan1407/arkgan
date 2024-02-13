@@ -34,6 +34,5 @@ pub fn calc_iou(x: &[f64], y: &[f64]) -> f64 {
     let intersect: f64 = same_elements.len() as f64;
     let union: f64 = (x.len() + y.len()) as f64;
     let out: f64 = (intersect / union) as f64;
-    println!("{}, {}, {}", intersect, union, out);
     return out;
 }

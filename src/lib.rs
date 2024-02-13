@@ -5,3 +5,7 @@ pub mod discriminator;
 pub mod objective;
 pub mod iou;
 pub mod jen_shan_div;
+pub mod sigmoid;
+pub mod tanh;
+pub mod relu;
+pub mod adam;
