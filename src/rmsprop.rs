@@ -1,6 +1,3 @@
-const X: [f64;5] = [0.37,0.51,-0.97,0.54,0.76];
-const Y: [f64;5] = [0.72,0.13,0.43,-0.46,0.61];
-
 pub fn exec_rmsprop(x: &[f64], y: &[f64], lr:f64, decay: f64, itr: i32) -> (Vec<f64>, Vec<f64>){
     let mut x_sum: f64 = 0.0;
     let mut y_sum:f64 = 0.0;
@@ -110,11 +107,4 @@ pub fn exec_rmsprop(x: &[f64], y: &[f64], lr:f64, decay: f64, itr: i32) -> (Vec<
         instances += 1;
     }
     return (res_slope, res_intercept);
-}
-
-fn main(){
-    let (slope, intercept) = exec_rmsprop(&X,&Y,0.01,0.09,10);
-    println!("RMS Slope: {:?}", slope);
-    println!("--------------------------------------------------------");
-    print!("RMS Intercept: {:?}", intercept);
 }

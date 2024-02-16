@@ -11,3 +11,4 @@ pub mod relu;
 pub mod adam;
 pub mod sgd;
 pub mod rmsprop;
+pub mod adagrad;
