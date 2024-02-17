@@ -12,3 +12,6 @@ pub mod adam;
 pub mod sgd;
 pub mod rmsprop;
 pub mod adagrad;
+pub mod kld;
+pub mod lr_scheduler;
+pub mod wasserstein_dist;
